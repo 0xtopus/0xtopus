@@ -1,0 +1,251 @@
+<svg fill="none" viewBox="0 0 600 100" width="600" height="100" xmlns="http://www.w3.org/2000/svg">   
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+        <style>
+            @keyframes hi {
+                0% { transform: rotate( 0.0deg) }
+            10% { transform: rotate(14.0deg) }
+            20% { transform: rotate(-8.0deg) }
+            30% { transform: rotate(14.0deg) }
+            40% { transform: rotate(-4.0deg) }
+            50% { transform: rotate(10.0deg) }
+            60% { transform: rotate( 0.0deg) }
+            100% { transform: rotate( 0.0deg) }
+            }
+            /**/
+            @keyframes gradient {
+            0% {
+                background-position: 0% 100%;
+            }
+            50% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+            }
+
+            .container {
+                background: linear-gradient(
+                    180deg, 
+                    #ee7752 5%, 
+                    #e73c7e 20%, 
+                    #23a6d5, 
+                    #23d5ab, 
+                    #ee7752 70%, 
+                    #ee7752 87%, 
+                    #e73c7e
+                );
+                background-size: 300% 600%;
+                animation: gradient 5s linear infinite;
+
+            width: 100%;
+            height: 100px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            flex-direction: column;
+
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Tentacles";
+            }
+            
+            .hi{
+            animation: hi 1.5s linear -0.5s infinite;
+            display: inline-block;
+            transform-origin: 70% 70%;
+            }
+
+            @media (prefers-reduced-motion) {
+            .container {
+                animation: none;
+            }
+
+            .hi {
+                animation: none;
+            }
+            
+        
+            .banner {
+                
+            }
+<!--             .octopus-box {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                z-index: 99999;
+                pointer-events: none;
+            }
+
+            .octopus {
+                position: absolute;
+                display: block;
+                top: -20px;
+                width: 10px;
+                height: 10px;
+                opacity: 0.8;
+                animation: fall 5s linear infinite;
+                opacity: 0.4;
+                animation-delay: 5s;
+                left: 5%;
+            }
+
+            .octopus:nth-child(2) {
+                left: 13%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 10s;
+                animation-delay: 14s;
+                opacity: 0.4;
+            }
+            .octopus:nth-child(3) {
+                left: 23%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 9s;
+                animation-delay: 8s;
+                opacity: 0.4;
+            }
+            .octopus:nth-child(4) {
+                left: 30%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 9s;
+                animation-delay: 2s;
+                opacity: 0.4;
+            }
+            .octopus:nth-child(5) {
+                left: 44%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 10s;
+                animation-delay: 5s;
+                opacity: 0.4;
+            }
+            .octopus:nth-child(6) {
+                left: 50%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 8s;
+                animation-delay: 3s;
+                opacity: 0.4;
+            }
+            .octopus:nth-child(7) {
+                left: 55%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 11s;
+                animation-delay: 5s;
+                opacity: 0.4;
+            }
+            .octopus:nth-child(8) {
+                left: 70%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 10s;
+                animation-delay: 0s;
+                opacity: 0.4;
+            }
+            .octopus:nth-child(9) {
+                left: 80%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 10s;
+                animation-delay: 3s;
+                opacity: 0.4;
+            }
+            .octopus:nth-child(10) {
+                left: 95%;
+                top: -20px;
+                width: 15px;
+                height: 15px;
+                animation-duration: 7s;
+                animation-delay: 5s;
+                opacity: 0.4;
+            }
+
+            @keyframes fall {
+                0% {
+                    transform: translateY(-100%) rotate(0deg);
+                }
+                100% {
+                    transform: translateY(5000%) rotate(0deg);
+                }
+            }
+            @keyframes fall2 {
+                0% {
+                    transform: translateY(-100%) rotate(0deg);
+                }
+                75% {
+                transform: translateY(1000%) rotate(0deg);
+                }
+                100% {
+                    transform: translateY(5000%) rotate(0deg);
+                }
+            } -->
+
+            .cont
+        </style>
+        <div class="container">
+ <!--        
+        <div class="octopus">🐟</div>
+        <div class="octopus">⛵️</div>
+        <div class="octopus">⚓️</div>
+        <div class="octopus">🐟</div>
+        <div class="octopus">🐬</div>
+        <div class="octopus">🐳</div>
+        <div class="octopus">⚓️</div>
+        <div class="octopus">⛵️</div>
+        <div class="octopus">🐳</div>
+        <div class="octopus">🐬</div> 
+-->
+            <div class="banner">
+                <h1>
+                    Hi there, I am 0xtopus!
+                    <div class="hi">
+                        <h1 style="font-family:'Tentacles';font-weight:normal;font-size:42px">
+                            🐙
+                        </h1>
+                    </div>
+                </h1>
+            </div>
+<!--             <div class="content">
+                <h4>
+                    ✨  I’m currently working on CS 61B, a data structure course from Berkeley.
+                </h4>
+                
+                <h4>
+                    🌱 I’m currently learning data structure and other coding things, including prompt engineering.
+                </h4>
+                
+                <h4>
+                    💬 Ask me about ... Maybe ask AI instead, it knows better than me.
+                </h4>
+                
+                <h4>
+                    📩 How to reach me: just started using github currently and idk whether there is a DM system built in.
+                </h4>
+                
+                <h4>
+                    ⚡ Fun fact:  *0xtopus* is a combination of a common hexadecimal prefix expression *0x* and the octo-legged creature,
+                 for which I think might be intriguing. 
+                </h4>
+                
+            </div> -->
+        </div>
+
+    <!-- wrapper end -->
+    </div>  
+  </foreignObject>
+</svg>
